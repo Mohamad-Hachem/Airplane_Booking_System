@@ -104,7 +104,7 @@ def application():
                             # creating passenger
                             print(passenger_element)
                             print(passengers)
-                            passenger_id = int(input("Enter the passenger ID:\n"))
+                            passenger_id = int(input("Enter the new passenger ID:\n"))
                             if not passengers.does_passenger_exist(passenger_id):
                                 passenger_first_name = input("Enter passenger first name:\n")
                                 passenger_last_name = input("Enter passenger last name:\n")
@@ -176,7 +176,7 @@ def application():
                         case 'C':
                             print(reservation_element)
                             print(reservations)
-                            reservation_id = int(input("Enter the reservation ID:\n"))
+                            reservation_id = int(input("Enter the new reservation ID:\n"))
 
                             # To show available passenger
                             if not reservations.does_reservation_exists(reservation_id):

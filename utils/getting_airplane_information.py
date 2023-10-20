@@ -8,7 +8,7 @@ def getting_payload() -> Dict:
     this function takes nothing and return a dictionary of the users answers
     :return: id, company_name, departure_time, arrival_time
     """
-    temp_id = int(input("Enter the plane ID(int):\n"))
+    temp_id = int(input("Enter the new plane ID(int):\n"))
     temp_company_name = input("Enter the company name:\n")
 
     # making sure time is in the correct format
