@@ -91,17 +91,17 @@ The system is divided into three main sections:
     ```
     
 4. **Install Required Dependencies**:
-- install `requirements.txt` file  :
+- Cd to the application, and install `requirements.txt` file  :
   ```
   pip install -r requirements.txt
   ```
 
 5. **Run the Project**:
-- Cd to the application, and then run:
+- then run application:
   ```
   python -m main
   ```
-### Usage:
+
 
 
 
