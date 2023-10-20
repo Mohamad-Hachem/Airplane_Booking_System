@@ -9,8 +9,7 @@ This Airplane Booking System is developed as a test for the Python Developer pos
 - System Structure
 - Installation & Setup
 - Usage
-- Contribution
-- Contact Information
+
 
 ## Features
 - Manage Airplanes:
@@ -92,7 +91,7 @@ The system is divided into three main sections:
     ```
     
 4. **Install Required Dependencies**:
-- If you have a `requirements.txt` file in your repository (which lists all the dependencies for the project):
+- install `requirements.txt` file  :
   ```
   pip install -r requirements.txt
   ```
@@ -102,5 +101,7 @@ The system is divided into three main sections:
   ```
   python -m main
   ```
+### Usage:
+
 
 
